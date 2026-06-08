@@ -1,0 +1,404 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nature cover contact sheet</title>
+<style>
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 28px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0b0c0f; color: #f2f2f2;
+}
+header { margin-bottom: 28px; max-width: 1040px; }
+h1 { font-size: 30px; margin: 0 0 8px; font-weight: 780; letter-spacing: -0.03em; }
+h2 { font-size: 20px; margin: 0 0 8px; letter-spacing: -0.015em; }
+p { margin: 0 0 18px; color: #b9bcc6; max-width: 980px; line-height: 1.45; }
+section { margin-bottom: 34px; }
+.section-head { margin-bottom: 14px; }
+.eyebrow {
+  display: inline-block; width: fit-content; margin-bottom: 7px; padding: 4px 9px;
+  border: 1px solid #57606f; border-radius: 999px; color: #e8ebf2;
+  background: #20242d; font-size: 12px; font-weight: 650; letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.featured {
+  padding: 18px; border: 1px solid #5d6678; border-radius: 18px;
+  background: radial-gradient(circle at top left, rgba(90, 110, 160, .28), transparent 42%),
+              linear-gradient(180deg, #171b24 0%, #101219 100%);
+}
+.featured-grid {
+  display: grid; grid-template-columns: repeat(4, minmax(150px, 1fr));
+  gap: 18px; align-items: start;
+}
+.grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 18px; align-items: start;
+}
+.card {
+  display: block; text-decoration: none; color: inherit; background: #17191f;
+  border: 1px solid #2a2d36; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  transition: transform .12s ease, border-color .12s ease;
+}
+.featured-card { border-color: #788398; background: #11141b; }
+.card:hover { transform: translateY(-3px); border-color: #9aa3b6; }
+.card img {
+  width: 100%; display: block; aspect-ratio: 440 / 616;
+  object-fit: cover; background: #222;
+}
+.cap { padding: 9px 10px 11px; min-height: 85px; }
+.cap strong { display: block; font-size: 13px; line-height: 1.25; margin-bottom: 5px; }
+.cap em {
+  display: block; font-style: normal; color: #d7dcea;
+  font-size: 11px; line-height: 1.25; margin-bottom: 6px;
+}
+.cap span { display: block; font-size: 11px; color: #a9adba; line-height: 1.25; }
+.note { margin-top: 22px; font-size: 12px; color: #8b90a0; }
+@media (max-width: 780px) {
+  body { padding: 18px; }
+  .featured-grid { grid-template-columns: repeat(2, minmax(140px, 1fr)); }
+}
+@media (max-width: 430px) {
+  .featured-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Nature main-journal cover contact sheet</h1>
+  <p>A quick visual reference page of official <em>Nature</em> issue-cover thumbnails. The first row highlights Google DeepMind / computer-science-related covers; the section below gives a broader mix of <em>Nature</em> covers across scientific areas and visual styles.</p>
+</header>
+
+<section class="featured">
+  <div class="section-head">
+    <span class="eyebrow">Top row reference</span>
+    <h2>Google DeepMind / AI & computer-science covers</h2>
+    <p>These are especially relevant references for an AI / self-driving-car paper: they show how <em>Nature</em> has previously presented major computer-science and AI work on the main-journal cover.</p>
+  </div>
+  <div class="featured-grid">
+    
+      <a class="card featured-card" href="https://www.nature.com/nature/volumes/518/issues/7540" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/518/7540" alt="Nature cover volume 518, issue 7540" loading="lazy">
+        <div class="cap">
+          <strong>DQN / Atari</strong>
+          <em>DeepMind reinforcement-learning paper</em>
+          <span>Vol. 518, Issue 7540<br>26 Feb 2015</span>
+        </div>
+      </a>
+    
+      <a class="card featured-card" href="https://www.nature.com/nature/volumes/529/issues/7587" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/529/7587" alt="Nature cover volume 529, issue 7587" loading="lazy">
+        <div class="cap">
+          <strong>AlphaGo</strong>
+          <em>Google DeepMind Go paper</em>
+          <span>Vol. 529, Issue 7587<br>28 Jan 2016</span>
+        </div>
+      </a>
+    
+      <a class="card featured-card" href="https://www.nature.com/nature/volumes/575/issues/7782" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/575/7782" alt="Nature cover volume 575, issue 7782" loading="lazy">
+        <div class="cap">
+          <strong>AlphaStar / StarCraft II</strong>
+          <em>DeepMind game-playing AI paper</em>
+          <span>Vol. 575, Issue 7782<br>7 Nov 2019</span>
+        </div>
+      </a>
+    
+      <a class="card featured-card" href="https://www.nature.com/nature/volumes/634/issues/8035" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/634/8035" alt="Nature cover volume 634, issue 8035" loading="lazy">
+        <div class="cap">
+          <strong>SynthID-Text</strong>
+          <em>Google DeepMind AI watermarking paper</em>
+          <span>Vol. 634, Issue 8035<br>24 Oct 2024</span>
+        </div>
+      </a>
+    
+  </div>
+</section>
+
+<section>
+  <div class="section-head">
+    <span class="eyebrow">Broader style references</span>
+    <h2>Other Nature cover examples</h2>
+    <p>A wider selection of covers showing the range of approaches: painterly concepts, scientific imaging, cinematic scenes, abstract visuals, biological structures, astronomy, archaeology, and climate imagery.</p>
+  </div>
+  <div class="grid">
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/644/issues/8077" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/644/8077" alt="Nature cover volume 644, issue 8077" loading="lazy">
+        <div class="cap">
+          <strong>Supernova / massive star</strong>
+          
+          <span>Vol. 644, Issue 8077<br>21 Aug 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/643/issues/8074" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/643/8074" alt="Nature cover volume 643, issue 8074" loading="lazy">
+        <div class="cap">
+          <strong>Triassic reptile</strong>
+          
+          <span>Vol. 643, Issue 8074<br>31 Jul 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/643/issues/8073" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/643/8073" alt="Nature cover volume 643, issue 8073" loading="lazy">
+        <div class="cap">
+          <strong>Ancient pathogens</strong>
+          
+          <span>Vol. 643, Issue 8073<br>24 Jul 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/643/issues/8072" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/643/8072" alt="Nature cover volume 643, issue 8072" loading="lazy">
+        <div class="cap">
+          <strong>Planet formation</strong>
+          
+          <span>Vol. 643, Issue 8072<br>17 Jul 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/643/issues/8071" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/643/8071" alt="Nature cover volume 643, issue 8071" loading="lazy">
+        <div class="cap">
+          <strong>Moon far side</strong>
+          
+          <span>Vol. 643, Issue 8071<br>10 Jul 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/643/issues/8070" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/643/8070" alt="Nature cover volume 643, issue 8070" loading="lazy">
+        <div class="cap">
+          <strong>Dog rose genetics</strong>
+          
+          <span>Vol. 643, Issue 8070<br>3 Jul 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/642/issues/8069" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/642/8069" alt="Nature cover volume 642, issue 8069" loading="lazy">
+        <div class="cap">
+          <strong>Cyborg tadpoles</strong>
+          
+          <span>Vol. 642, Issue 8069<br>26 Jun 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/642/issues/8068" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/642/8068" alt="Nature cover volume 642, issue 8068" loading="lazy">
+        <div class="cap">
+          <strong>Climate / food forecast</strong>
+          
+          <span>Vol. 642, Issue 8068<br>19 Jun 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/642/issues/8067" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/642/8067" alt="Nature cover volume 642, issue 8067" loading="lazy">
+        <div class="cap">
+          <strong>Painting restoration</strong>
+          
+          <span>Vol. 642, Issue 8067<br>12 Jun 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/642/issues/8066" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/642/8066" alt="Nature cover volume 642, issue 8066" loading="lazy">
+        <div class="cap">
+          <strong>Ancient river carbon</strong>
+          
+          <span>Vol. 642, Issue 8066<br>5 Jun 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/641/issues/8065" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/641/8065" alt="Nature cover volume 641, issue 8065" loading="lazy">
+        <div class="cap">
+          <strong>Archaeopteryx</strong>
+          
+          <span>Vol. 641, Issue 8065<br>29 May 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/641/issues/8064" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/641/8064" alt="Nature cover volume 641, issue 8064" loading="lazy">
+        <div class="cap">
+          <strong>Cell therapy</strong>
+          
+          <span>Vol. 641, Issue 8064<br>22 May 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/641/issues/8063" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/641/8063" alt="Nature cover volume 641, issue 8063" loading="lazy">
+        <div class="cap">
+          <strong>Gravitational waves</strong>
+          
+          <span>Vol. 641, Issue 8063<br>15 May 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/641/issues/8062" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/641/8062" alt="Nature cover volume 641, issue 8062" loading="lazy">
+        <div class="cap">
+          <strong>Ape genomes</strong>
+          
+          <span>Vol. 641, Issue 8062<br>8 May 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/641/issues/8061" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/641/8061" alt="Nature cover volume 641, issue 8061" loading="lazy">
+        <div class="cap">
+          <strong>Tropical forest traits</strong>
+          
+          <span>Vol. 641, Issue 8061<br>1 May 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/640/issues/8059" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/640/8059" alt="Nature cover volume 640, issue 8059" loading="lazy">
+        <div class="cap">
+          <strong>Ocean dynamics / SWOT</strong>
+          
+          <span>Vol. 640, Issue 8059<br>17 Apr 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/640/issues/8058" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/640/8058" alt="Nature cover volume 640, issue 8058" loading="lazy">
+        <div class="cap">
+          <strong>Brain wiring / MICrONS</strong>
+          
+          <span>Vol. 640, Issue 8058<br>10 Apr 2025</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/634/issues/8036" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/634/8036" alt="Nature cover volume 634, issue 8036" loading="lazy">
+        <div class="cap">
+          <strong>Human tumour atlas</strong>
+          
+          <span>Vol. 634, Issue 8036<br>31 Oct 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/634/issues/8034" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/634/8034" alt="Nature cover volume 634, issue 8034" loading="lazy">
+        <div class="cap">
+          <strong>Meteorite origins</strong>
+          
+          <span>Vol. 634, Issue 8034<br>17 Oct 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/634/issues/8033" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/634/8033" alt="Nature cover volume 634, issue 8033" loading="lazy">
+        <div class="cap">
+          <strong>Permafrost river migration</strong>
+          
+          <span>Vol. 634, Issue 8033<br>10 Oct 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/634/issues/8032" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/634/8032" alt="Nature cover volume 634, issue 8032" loading="lazy">
+        <div class="cap">
+          <strong>Fruit-fly connectome</strong>
+          
+          <span>Vol. 634, Issue 8032<br>3 Oct 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/630/issues/8018" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/630/8018" alt="Nature cover volume 630, issue 8018" loading="lazy">
+        <div class="cap">
+          <strong>Exoplanet WASP-107b</strong>
+          
+          <span>Vol. 630, Issue 8018<br>27 Jun 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/630/issues/8017" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/630/8017" alt="Nature cover volume 630, issue 8017" loading="lazy">
+        <div class="cap">
+          <strong>Soaring birds</strong>
+          
+          <span>Vol. 630, Issue 8017<br>20 Jun 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/630/issues/8016" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/630/8016" alt="Nature cover volume 630, issue 8016" loading="lazy">
+        <div class="cap">
+          <strong>AlphaFold 3</strong>
+          
+          <span>Vol. 630, Issue 8016<br>13 Jun 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/630/issues/8015" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/630/8015" alt="Nature cover volume 630, issue 8015" loading="lazy">
+        <div class="cap">
+          <strong>Misinformation</strong>
+          
+          <span>Vol. 630, Issue 8015<br>6 Jun 2024</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/596/issues/7873" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/596/7873" alt="Nature cover volume 596, issue 7873" loading="lazy">
+        <div class="cap">
+          <strong>AlphaFold / human proteome</strong>
+          
+          <span>Vol. 596, Issue 7873<br>26 Aug 2021</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/577/issues/7792" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/577/7792" alt="Nature cover volume 577, issue 7792" loading="lazy">
+        <div class="cap">
+          <strong>Distributional RL / dopamine</strong>
+          
+          <span>Vol. 577, Issue 7792<br>30 Jan 2020</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/550/issues/7676" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/550/7676" alt="Nature cover volume 550, issue 7676" loading="lazy">
+        <div class="cap">
+          <strong>Future of work</strong>
+          
+          <span>Vol. 550, Issue 7676<br>19 Oct 2017</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/486/issues/7402" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/486/7402" alt="Nature cover volume 486, issue 7402" loading="lazy">
+        <div class="cap">
+          <strong>Human Microbiome Project</strong>
+          
+          <span>Vol. 486, Issue 7402<br>14 Jun 2012</span>
+        </div>
+      </a>
+    
+      <a class="card" href="https://www.nature.com/nature/volumes/467/issues/7317" target="_blank" rel="noopener">
+        <img src="https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/467/7317" alt="Nature cover volume 467, issue 7317" loading="lazy">
+        <div class="cap">
+          <strong>Oil painting / Cook expedition</strong>
+          
+          <span>Vol. 467, Issue 7317<br>14 Oct 2010</span>
+        </div>
+      </a>
+    
+  </div>
+</section>
+
+<p class="note">Images load from Springer Nature’s public cover image service. Click any cover to open the corresponding <em>Nature</em> issue page. This file is intended only as a quick visual reference for commissioning artwork.</p>
+</body>
+</html>
